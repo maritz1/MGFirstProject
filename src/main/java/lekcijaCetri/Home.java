@@ -16,10 +16,10 @@ public class Home {
         int tirgusVertiba;
         int istabuSkaits;
         ArrayList<String> apdaresMateriali;
-
-        public void printAddress(){
+    }
+        public void printAddress(String ielasNosaukums, String majasNumurs){
             System.out.println(ielasNosaukums + "" + majasNumurs);
         }
 
     }
-}
+
