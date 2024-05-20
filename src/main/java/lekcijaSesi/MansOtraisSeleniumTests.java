@@ -44,7 +44,7 @@ public class MansOtraisSeleniumTests extends BaseTest{
 //        System.out.println(nameDropdown.getText());
         Assert.assertEquals(nameDropdown.getText(),"Emily","Wrong username visible in header dropdown");
 
-
+//izmainas prieks Git zaroshanas, branch
     }
 
     @Test
