@@ -49,7 +49,7 @@ public class MansOtraisSeleniumTests extends BaseTest{
 
     @Test
     public void wrongCredentialsLoginTest() throws InterruptedException {
-        attemptToLogin("wrongysinclair@gmail.com","wrong123456#");
+        attemptToLogin("wrongysinclair@gmail.com","wrong321AA");
 //        driver.get("https://qaproject.acodemy.lv/login");
 //
 //        WebElement loginEmailInput=driver.findElement(By.id("email"));

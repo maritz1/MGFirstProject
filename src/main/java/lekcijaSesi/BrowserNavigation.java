@@ -66,6 +66,7 @@ Thread.sleep(6000);
         List<WebElement> cookiebanners = driver.findElements(By.id("cookiebanner"));
 //        un parbaudu, ka sis saraksta (list) izmers (size) ir 0..
         Assert.assertEquals(cookiebanners.size(),0);
+        System.out.println("Hello world");
         Thread.sleep(6000);
         //ka parbaudisim, ka pazud cookies?
     }
@@ -81,7 +82,7 @@ Thread.sleep(6000);
         driver.findElement(By.xpath("//div[@class='cookies_wrapper']//button[@widget-attachpoint='agree']")).click();
 //        WebElement cookieBlock2 = driver.findElement(By.className("cookies_wrapper"));
 
-        Assert.assertFalse(cookieBlock.isDisplayed(),"Cookie block is displayed");
+        Assert.assertFalse(cookieBlock.isDisplayed(),"Cookie block ir redzams");
     }
 
 
